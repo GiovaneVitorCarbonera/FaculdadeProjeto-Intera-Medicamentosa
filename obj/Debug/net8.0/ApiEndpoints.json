@@ -1,0 +1,526 @@
+[
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.Intera\u00E7\u00E3oController",
+    "Method": "GetAll",
+    "RelativePath": "intera\u00E7\u00F5es",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Intera\u00E7\u00E3o_Medicamentosa.Models.Intera\u00E7\u00E3oModel, Intera\u00E7\u00E3o Medicamentosa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.Intera\u00E7\u00E3oController",
+    "Method": "Post",
+    "RelativePath": "intera\u00E7\u00F5es",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.Intera\u00E7\u00E3oModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.Intera\u00E7\u00E3oModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.Intera\u00E7\u00E3oController",
+    "Method": "Get",
+    "RelativePath": "intera\u00E7\u00F5es/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.Intera\u00E7\u00E3oModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.Intera\u00E7\u00E3oController",
+    "Method": "Put",
+    "RelativePath": "intera\u00E7\u00F5es/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "data",
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.Intera\u00E7\u00E3oModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.Intera\u00E7\u00E3oModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.Intera\u00E7\u00E3oController",
+    "Method": "Delete",
+    "RelativePath": "intera\u00E7\u00F5es/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.MedicamentoController",
+    "Method": "Get",
+    "RelativePath": "medicamentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Intera\u00E7\u00E3o_Medicamentosa.Models.MedicamentoModel, Intera\u00E7\u00E3o Medicamentosa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.MedicamentoController",
+    "Method": "Post",
+    "RelativePath": "medicamentos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicamento",
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.MedicamentoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.MedicamentoModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.MedicamentoController",
+    "Method": "Get",
+    "RelativePath": "medicamentos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.MedicamentoModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.MedicamentoController",
+    "Method": "Put",
+    "RelativePath": "medicamentos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "medicamento",
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.MedicamentoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.MedicamentoController",
+    "Method": "Delete",
+    "RelativePath": "medicamentos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.MedicamentoController",
+    "Method": "Get_Intera\u00E7\u00F5es",
+    "RelativePath": "medicamentos/{id}/interacoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Intera\u00E7\u00E3o_Medicamentosa.Models.Intera\u00E7\u00E3oModel, Intera\u00E7\u00E3o Medicamentosa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.MedicamentoController",
+    "Method": "Search",
+    "RelativePath": "medicamentos/search/{query}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Intera\u00E7\u00E3o_Medicamentosa.Models.MedicamentoModel, Intera\u00E7\u00E3o Medicamentosa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.PacientesController",
+    "Method": "GetPatients",
+    "RelativePath": "pacientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Intera\u00E7\u00E3o_Medicamentosa.Models.PacienteModel, Intera\u00E7\u00E3o Medicamentosa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.PacientesController",
+    "Method": "PostPatient",
+    "RelativePath": "pacientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patient",
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.PacienteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.PacienteModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.PacientesController",
+    "Method": "GetPatient",
+    "RelativePath": "pacientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.PacienteModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.PacientesController",
+    "Method": "PutPatient",
+    "RelativePath": "pacientes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patient",
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.PacienteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.PacientesController",
+    "Method": "DeletePatient",
+    "RelativePath": "pacientes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.PacientesController",
+    "Method": "Search",
+    "RelativePath": "pacientes/search/{query}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Intera\u00E7\u00E3o_Medicamentosa.Models.PacienteModel, Intera\u00E7\u00E3o Medicamentosa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.Prescri\u00E7\u00E3oController",
+    "Method": "GetPrescri\u00E7\u00E3oModel",
+    "RelativePath": "prescri\u00E7\u00F5es",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Intera\u00E7\u00E3o_Medicamentosa.Models.Prescri\u00E7\u00E3oModel, Intera\u00E7\u00E3o Medicamentosa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.Prescri\u00E7\u00E3oController",
+    "Method": "PostPrescri\u00E7\u00E3oModel",
+    "RelativePath": "prescri\u00E7\u00F5es",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Prescri\u00E7\u00E3oObj",
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.Prescri\u00E7\u00E3oModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.Prescri\u00E7\u00E3oModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.Prescri\u00E7\u00E3oController",
+    "Method": "GetPrescri\u00E7\u00E3oModel",
+    "RelativePath": "prescri\u00E7\u00F5es/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.Prescri\u00E7\u00E3oModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.Prescri\u00E7\u00E3oController",
+    "Method": "PutPrescri\u00E7\u00E3oModel",
+    "RelativePath": "prescri\u00E7\u00F5es/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Prescri\u00E7\u00E3oObj",
+        "Type": "Intera\u00E7\u00E3o_Medicamentosa.Models.Prescri\u00E7\u00E3oModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Intera\u00E7\u00E3o_Medicamentosa.Controllers.Prescri\u00E7\u00E3oController",
+    "Method": "DeletePrescri\u00E7\u00E3oModel",
+    "RelativePath": "prescri\u00E7\u00F5es/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
