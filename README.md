@@ -1,4 +1,4 @@
-# FaculdadeProjeto-Intera-oMedicamentosa
+# (Projeto Faculdade) Intera Medicamentosa
 Projeto da Faculdade
 
 este projeto é um sistema desenvolvido para auxiliar no controle e prevenção de interações medicamentosas, permitindo identificar riscos quando dois ou mais medicamentos são utilizados em conjunto.
